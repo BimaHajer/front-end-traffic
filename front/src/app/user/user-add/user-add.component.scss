@@ -1,0 +1,115 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #444;
+    margin-top: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  input.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  button.btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  button.btn-primary:disabled {
+    background-color: #b8daff;
+    cursor: not-allowed;
+  }
+  
+  button.btn-warning {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+  }
+  
+  button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
+  button.btn:hover {
+    opacity: 0.8;
+  }
+  
+  .alert {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table.table-striped tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  table.table th, table.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table.table th {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
